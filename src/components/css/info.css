@@ -1,0 +1,32 @@
+#iava{
+    margin: auto;
+    margin-bottom:7px;
+}
+.info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 18px;
+    border: solid rgba(0, 0, 0, 0.192) thin;
+    align-items: center;
+    
+}
+.info>h4{
+    color: rgba(0, 0, 0, 0.897);
+    font-weight: 400;
+
+}
+
+@media screen and (max-width:800px) {
+    .info{
+        width: 100%;
+    }    
+    .info>h4{
+        font-size:17px;
+        font-weight: 600;
+    }
+    .info>p{
+        font-size: 15px;
+    }
+}

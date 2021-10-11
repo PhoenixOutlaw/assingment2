@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60px;
+    padding: 8px 0 8px 0;
+    background-color:white;
+}
+.header>img{
+    height: inherit;
+    object-fit: contain;
+    cursor: pointer;
+}
+.header>.MuiSvgIcon-root{
+    cursor: pointer;
+}

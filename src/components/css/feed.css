@@ -1,0 +1,66 @@
+.feedcontainer{
+    display: flex;
+    justify-content: center;
+
+}
+.feed{
+    flex: 0.7;
+    margin-top: 20px;
+    border: solid rgba(0, 0, 0, 0.096) thin;
+    border-radius: 7px;
+    background-color: white;
+    padding: 20px;
+    
+}
+#tp{
+    border-bottom: solid rgba(0, 0, 0, 0.171) thin;
+}
+#tp>h3{
+    font-weight: 470;
+    color: rgba(0, 0, 0, 0.726);
+}
+.userlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:40px;
+}
+.users{
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-bottom: solid rgba(0, 0, 0, 0.158) thin;
+    border-top: solid rgba(0, 0, 0, 0.137) thin;
+    border-radius:10px;
+    cursor: pointer;
+}
+.users:hover{
+    box-shadow: 10px 6px 5px rgba(0, 0, 0, 0.068);
+    background-color: rgba(248, 248, 248, 0.349);
+}
+#ava{
+  height:30px;
+  width: 30px;
+  border: solid thin rgb(5, 175, 253);
+}
+.users>h4{
+    margin: 0;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.808);
+    font-weight: 400;
+    width:fit-content;
+    font-size:16px;
+}
+
+@media screen and (max-width:700px) {
+    .feed{
+        flex: 0.9;
+    }
+    .users>h4{
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
